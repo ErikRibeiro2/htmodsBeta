@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="sobre.css">
+    <link rel="stylesheet" href="boas_vindas.css">
+    <link rel="stylesheet" href="contato.css">
+    <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+    <script src="file_script_index.js"></script>
+    <title>HT Mods</title>
+</head>
+
+<body class="corpo">
+    <nav class="navbar-style" id="navbar">
+        <div class="container-left">
+            <div class="logo-style">HT-Mods</div>
+            <div class="container-botoes">
+                <ul class="list-styleMenu">
+                    <li class="botao-style"><a href="#bloco1" class="botao-style"><span>Home</span></a></li>
+                    <li class="botao-style"><a href="#bloco2" class="botao-style">Sobre</a></li>
+                    <li class="botao-style"><a href="#bloco3" class="botao-style">Contato</a></li>
+                    <li class="botao-style"><a href="./mods.html" class="botao-style">MODS</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--
+        <div class="icons-buttons">
+            <img src="img/instagram.png" alt="" class="icon-image" width="40px" height="40px">
+            <img src="img/youtube.png" alt="" class="icon-image" width="40px" height="40px">
+        </div>-->
+    </nav>
+    <!--Bolas de fundo-->
+    <div class="boll-gigante"></div>
+    <div class="boll-short"></div>
+
+    <!--bloco cabecalho-->
+    <section class="bloco-principal" id="bloco1">
+        <div class="bloco-conteudo">
+            <div class="bloco-textoBoasvindas">
+                <h1 class="titulo-boasvindas">Bem-vindo(a) a HT Mods</h1>
+                <p class="subtexto-boasVindas">Explore nossos mods para deixar seu GTA mais dinâmico e personalizado ao
+                    seu gosto</p>
+            </div>
+            <div class="bloco-botaoexplorar">
+                <a href="./mods.html">
+                    <button class="botao-explorar">Explorar</button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!--Bloco sobre-->
+    <section class="bloco-principal" id="bloco2">
+        <div class="bloco-conteudo">
+            <div class="bloco-textoBoasvindas">
+                <h1 class="titulo-Sobre">Sobre</h1>
+                <p class="subtexto-Sobre">
+                    Text texto texto texto texto texto texto texto texto texto texto texto text
+                    zdivjdjodv iefhohefoafa eaefonoauefhoahuefouaheo
+                </p>
+            </div>
+        </div>
+    </section>
+    <!--bloco contato-->
+    <section class="bloco-principal" id="bloco3">
+        <div class="bloco-conteudo">
+            <div class="bloco-Contato">
+                <h1 class="titulo-Contato">Entre em contato com nós</h1>
+                <p class="subtexto-Contato">
+                    <input type="text" name="nome" id="campo-nome" class="input-contato" placeholder="Seu nome"> <br>
+                    <input type="email" name="email" id="campo-email" class="input-contato" placeholder="Email"><br>
+                    <textarea name="mensagem" id="campo-mensagem" cols="30" rows="5" class="input-mensagem" placeholder="Digite sua mensagem"></textarea>
+                    <br>
+                    <button class="btnEnviar">Enviar</button>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        (function () {
+            var menu = document.getElementById('navbar'); // colocar em cache
+            window.addEventListener('scroll', function () {
+                if (window.scrollY > 0) menu.classList.add('b'); // > 0 ou outro valor desejado
+                else menu.classList.remove('b');
+            });
+        })();
+    </script>
+</body>
+
+</html>

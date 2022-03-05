@@ -1,0 +1,81 @@
+a{
+    text-decoration: none;
+    color: #7300E7;
+}
+a:hover{
+    color: #aa55ff;
+    transition: color 0.3s;
+}
+.navbar-style{
+    color: #7300E7;
+    display: flex;
+    align-items: center;
+    z-index: 12000;
+    line-height: 10vh;
+    position: fixed;
+    transition: all 0.4s;
+    width: 100%;
+}
+.container-left{
+    max-width: max-content;
+    display: flex;
+    align-items: center;
+}
+.logo-style{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 20px;
+    margin-left: 80px;
+    max-width: max-content;
+    margin-right: 70px;
+    z-index: 3000;
+}
+.container-botoes{
+    max-width: max-content;
+    z-index: 3000;
+}
+.list-styleMenu{
+    list-style: none;
+}
+.botao-style{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 23px;
+    width: 54px;
+    left: 284px;
+    top: 54px;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 40px;
+}
+.icons-buttons{
+    position: absolute;
+    right: 70px;
+    max-width: max-content;
+    z-index: 3000;
+}
+.icon-image{
+    margin-right: 30px;
+}
+.botao-explorar{
+    width: 250px;
+    font-size: 20pt;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 30px;
+    border-style: none;
+    background: #2d1a44;
+    color: white;
+    box-shadow: 0px 0px 10px #6e42a5;
+    transition: all 0.3s;
+}
+.botao-explorar:hover{
+    cursor: pointer;
+    background: #4f2f77;
+
+}
